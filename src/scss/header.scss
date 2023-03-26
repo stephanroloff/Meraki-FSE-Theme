@@ -1,0 +1,42 @@
+header.wp-block-template-part {
+    background-color: rgb(154, 150, 93);
+    padding: 0 40px;
+    height: 60px;
+
+    .wp-block-group {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .wp-block-site-logo {
+            max-width: 40px;
+
+            a {}
+        }
+
+        nav.wp-block-navigation {
+
+            ul {
+                li {
+                    a {
+                        color: white;
+                    }
+
+                    &.wp-block-navigation-submenu {
+                        & ul.wp-block-navigation__submenu-container {
+                            li {
+                                a {
+                                    span {
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

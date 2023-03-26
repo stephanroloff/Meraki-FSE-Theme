@@ -1,0 +1,12 @@
+footer.wp-block-template-part {
+    margin: 0;
+    height: 200px;
+
+    &>.wp-block-group {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+    }
+}

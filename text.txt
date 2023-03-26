@@ -1,0 +1,63 @@
+"styles": {
+        "border": {
+            "radius": "value",
+            "color": "value",
+            "style": "value",
+            "width": "value"
+        },
+        "filter": {
+            "duotone": "value"
+        },
+        "color": {
+            "background": "value",
+            "gradient": "value",
+            "text": "value",
+            "color-dark-blue": "var(--wp--preset--color--dark-blue)"
+        },
+        "spacing": {
+            "blockGap": "value",
+            "margin": {
+                "top": "value",
+                "right": "value",
+                "bottom": "value",
+                "left": "value"
+            },
+            "padding": {
+                "top": "value",
+                "right": "value",
+                "bottom": "value",
+                "left": "value"
+            }
+        },
+        "typography": {
+            "fontSize": "value",
+            "fontStyle": "value",
+            "fontWeight": "value",
+            "letterSpacing": "value",
+            "lineHeight": "value",
+            "textDecoration": "value",
+            "textTransform": "value"
+        },
+        "elements": {
+            "link": {
+                "border": {},
+                "color": {},
+                "spacing": {},
+                "typography": {}
+            },
+            "h1": {
+                "color": "var(--wp--color-dark-blue)"
+            },
+            "h2": {},
+            "h3": {},
+            "h4": {},
+            "h5": {},
+            "h6": {}
+        },
+        "blocks": {
+            "core/heading": {
+                "color": {}
+            },
+            "etc": {}
+        }
+    }
