@@ -106,7 +106,7 @@
         "spacing": {
             "padding": true,
             "margin": true,
-            "blockGap": true,
+            "blockGap": null,
             "units": [
                 "px",
                 "em",
@@ -133,8 +133,7 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--transparent)",
-            "text": "var(--wp--preset--color--dark-green)"
+            "background": "var(--wp--preset--color--transparent)"
         },
         "typography": {
             "lineHeight": "",
@@ -218,8 +217,8 @@
                 "spacing": {
                     "padding": {},
                     "margin": {
-                        "top": "20px",
-                        "bottom": "20px",
+                        "top": "80px",
+                        "bottom": "80px",
                         "left": "0",
                         "right": "0"
                     }
@@ -229,14 +228,24 @@
                 "spacing": {
                     "padding": {},
                     "margin": {
-                        "top": "10px",
-                        "bottom": "10px",
-                        "left": "0",
-                        "right": "0"
+                        "top": "90px",
+                        "right": "0px",
+                        "bottom": "90px",
+                        "left": "0px"
                     }
                 }
             },
-            "etc": {}
+            "core/group": {
+                "spacing": {
+                    "padding": {},
+                    "margin": {
+                        "top": "0px",
+                        "right": "0px",
+                        "bottom": "0px",
+                        "left": "0px"
+                    }
+                }
+            }
         }
     }
 }

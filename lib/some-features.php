@@ -9,7 +9,6 @@ function some_features(){
     add_theme_support( 'appearance-tools' );
     add_theme_support( 'custom-units' );
     add_theme_support( 'responsive-embeds' );
-
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo', 
